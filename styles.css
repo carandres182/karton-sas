@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    margin: 0;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 1rem;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('carton-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products, .services, .about, .contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-grid, .service-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.product-card, .service-card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.contact form button {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
